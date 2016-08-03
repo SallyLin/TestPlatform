@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generated="20160410 12:55:32.563" generator="Robot 2.9.2 (Python 2.7.10 on win32)">
+<suite source="D:\Thesis\UploadSpace\tool_test.txt" id="s1" name="Tool Test">
+<test id="s1-t1" name="test">
+<kw name="Set Serial" library="dMobile">
+<doc>Specify given *android_serial* device to perform test.</doc>
+<arguments>
+<arg>CB5A259ZSX</arg>
+</arguments>
+<status status="PASS" endtime="20160410 12:55:45.670" starttime="20160410 12:55:43.510"></status>
+</kw>
+<kw name="Set Serial" library="dWear">
+<doc>Specify given *android_serial* device to perform test.</doc>
+<arguments>
+<arg>F2NZCY01033809E</arg>
+</arguments>
+<status status="PASS" endtime="20160410 12:55:47.769" starttime="20160410 12:55:45.670"></status>
+</kw>
+<kw name="Press Home" library="dMobile">
+<doc>Press home key.</doc>
+<msg timestamp="20160410 12:55:47.770" level="INFO">Starting new HTTP connection (1): localhost</msg>
+<msg timestamp="20160410 12:55:49.783" level="WARN">Retrying (Retry(total=2, connect=None, read=None, redirect=None)) after connection broken by 'NewConnectionError('&lt;urllib3.connection.HTTPConnection object at 0x0000000003117978&gt;: Failed to establish a new connection: [Errno 10061] \xb5L\xaak\xb3s\xbdu\xa1A\xa6]\xac\xb0\xa5\xd8\xbc\xd0\xb9q\xb8\xa3\xa9\xda\xb5\xb4\xb3s\xbdu\xa1C',)': /jsonrpc/0</msg>
+<msg timestamp="20160410 12:55:49.783" level="INFO">Starting new HTTP connection (2): localhost</msg>
+<msg timestamp="20160410 12:55:51.797" level="WARN">Retrying (Retry(total=1, connect=None, read=None, redirect=None)) after connection broken by 'NewConnectionError('&lt;urllib3.connection.HTTPConnection object at 0x0000000003117A90&gt;: Failed to establish a new connection: [Errno 10061] \xb5L\xaak\xb3s\xbdu\xa1A\xa6]\xac\xb0\xa5\xd8\xbc\xd0\xb9q\xb8\xa3\xa9\xda\xb5\xb4\xb3s\xbdu\xa1C',)': /jsonrpc/0</msg>
+<msg timestamp="20160410 12:55:51.798" level="INFO">Starting new HTTP connection (3): localhost</msg>
+<msg timestamp="20160410 12:55:53.821" level="WARN">Retrying (Retry(total=0, connect=None, read=None, redirect=None)) after connection broken by 'NewConnectionError('&lt;urllib3.connection.HTTPConnection object at 0x0000000003117BE0&gt;: Failed to establish a new connection: [Errno 10061] \xb5L\xaak\xb3s\xbdu\xa1A\xa6]\xac\xb0\xa5\xd8\xbc\xd0\xb9q\xb8\xa3\xa9\xda\xb5\xb4\xb3s\xbdu\xa1C',)': /jsonrpc/0</msg>
+<msg timestamp="20160410 12:55:53.821" level="INFO">Starting new HTTP connection (4): localhost</msg>
+<msg timestamp="20160410 12:56:05.959" level="INFO">Starting new HTTP connection (5): localhost</msg>
+<msg timestamp="20160410 12:56:06.964" level="WARN">Retrying (Retry(total=2, connect=None, read=None, redirect=None)) after connection broken by 'ProtocolError('Connection aborted.', error(10054, '\xbb\xb7\xba\xdd\xa5D\xbe\xf7\xa4w\xb1j\xa8\xee\xc3\xf6\xb3\xac\xa4@\xad\xd3\xb2{\xa6s\xaa\xba\xb3s\xbdu\xa1C'))': /jsonrpc/0</msg>
+<msg timestamp="20160410 12:56:06.964" level="INFO">Starting new HTTP connection (6): localhost</msg>
+<status status="PASS" endtime="20160410 12:56:09.224" starttime="20160410 12:55:47.769"></status>
+</kw>
+<kw name="Press Home" library="dWear">
+<doc>Press home key.</doc>
+<msg timestamp="20160410 12:56:09.225" level="INFO">Starting new HTTP connection (1): localhost</msg>
+<msg timestamp="20160410 12:56:11.231" level="WARN">Retrying (Retry(total=2, connect=None, read=None, redirect=None)) after connection broken by 'NewConnectionError('&lt;urllib3.connection.HTTPConnection object at 0x0000000003117D30&gt;: Failed to establish a new connection: [Errno 10061] \xb5L\xaak\xb3s\xbdu\xa1A\xa6]\xac\xb0\xa5\xd8\xbc\xd0\xb9q\xb8\xa3\xa9\xda\xb5\xb4\xb3s\xbdu\xa1C',)': /jsonrpc/0</msg>
+<msg timestamp="20160410 12:56:11.231" level="INFO">Starting new HTTP connection (2): localhost</msg>
+<msg timestamp="20160410 12:56:13.234" level="WARN">Retrying (Retry(total=1, connect=None, read=None, redirect=None)) after connection broken by 'NewConnectionError('&lt;urllib3.connection.HTTPConnection object at 0x0000000003117F28&gt;: Failed to establish a new connection: [Errno 10061] \xb5L\xaak\xb3s\xbdu\xa1A\xa6]\xac\xb0\xa5\xd8\xbc\xd0\xb9q\xb8\xa3\xa9\xda\xb5\xb4\xb3s\xbdu\xa1C',)': /jsonrpc/0</msg>
+<msg timestamp="20160410 12:56:13.235" level="INFO">Starting new HTTP connection (3): localhost</msg>
+<msg timestamp="20160410 12:56:15.254" level="WARN">Retrying (Retry(total=0, connect=None, read=None, redirect=None)) after connection broken by 'NewConnectionError('&lt;urllib3.connection.HTTPConnection object at 0x00000000031173C8&gt;: Failed to establish a new connection: [Errno 10061] \xb5L\xaak\xb3s\xbdu\xa1A\xa6]\xac\xb0\xa5\xd8\xbc\xd0\xb9q\xb8\xa3\xa9\xda\xb5\xb4\xb3s\xbdu\xa1C',)': /jsonrpc/0</msg>
+<msg timestamp="20160410 12:56:15.254" level="INFO">Starting new HTTP connection (4): localhost</msg>
+<msg timestamp="20160410 12:56:52.322" level="INFO">Starting new HTTP connection (5): localhost</msg>
+<msg timestamp="20160410 12:56:53.340" level="WARN">Retrying (Retry(total=2, connect=None, read=None, redirect=None)) after connection broken by 'ProtocolError('Connection aborted.', error(10054, '\xbb\xb7\xba\xdd\xa5D\xbe\xf7\xa4w\xb1j\xa8\xee\xc3\xf6\xb3\xac\xa4@\xad\xd3\xb2{\xa6s\xaa\xba\xb3s\xbdu\xa1C'))': /jsonrpc/0</msg>
+<msg timestamp="20160410 12:56:53.340" level="INFO">Starting new HTTP connection (6): localhost</msg>
+<msg timestamp="20160410 12:56:54.362" level="WARN">Retrying (Retry(total=1, connect=None, read=None, redirect=None)) after connection broken by 'ProtocolError('Connection aborted.', error(10054, '\xbb\xb7\xba\xdd\xa5D\xbe\xf7\xa4w\xb1j\xa8\xee\xc3\xf6\xb3\xac\xa4@\xad\xd3\xb2{\xa6s\xaa\xba\xb3s\xbdu\xa1C'))': /jsonrpc/0</msg>
+<msg timestamp="20160410 12:56:54.362" level="INFO">Starting new HTTP connection (7): localhost</msg>
+<msg timestamp="20160410 12:56:55.365" level="WARN">Retrying (Retry(total=0, connect=None, read=None, redirect=None)) after connection broken by 'ProtocolError('Connection aborted.', error(10054, '\xbb\xb7\xba\xdd\xa5D\xbe\xf7\xa4w\xb1j\xa8\xee\xc3\xf6\xb3\xac\xa4@\xad\xd3\xb2{\xa6s\xaa\xba\xb3s\xbdu\xa1C'))': /jsonrpc/0</msg>
+<msg timestamp="20160410 12:56:55.365" level="INFO">Starting new HTTP connection (8): localhost</msg>
+<msg timestamp="20160410 12:56:56.479" level="INFO">Starting new HTTP connection (9): localhost</msg>
+<msg timestamp="20160410 12:56:57.493" level="WARN">Retrying (Retry(total=2, connect=None, read=None, redirect=None)) after connection broken by 'ProtocolError('Connection aborted.', error(10054, '\xbb\xb7\xba\xdd\xa5D\xbe\xf7\xa4w\xb1j\xa8\xee\xc3\xf6\xb3\xac\xa4@\xad\xd3\xb2{\xa6s\xaa\xba\xb3s\xbdu\xa1C'))': /jsonrpc/0</msg>
+<msg timestamp="20160410 12:56:57.493" level="INFO">Starting new HTTP connection (10): localhost</msg>
+<msg timestamp="20160410 12:56:58.511" level="WARN">Retrying (Retry(total=1, connect=None, read=None, redirect=None)) after connection broken by 'ProtocolError('Connection aborted.', error(10054, '\xbb\xb7\xba\xdd\xa5D\xbe\xf7\xa4w\xb1j\xa8\xee\xc3\xf6\xb3\xac\xa4@\xad\xd3\xb2{\xa6s\xaa\xba\xb3s\xbdu\xa1C'))': /jsonrpc/0</msg>
+<msg timestamp="20160410 12:56:58.511" level="INFO">Starting new HTTP connection (11): localhost</msg>
+<status status="PASS" endtime="20160410 12:57:00.650" starttime="20160410 12:56:09.224"></status>
+</kw>
+<status status="PASS" endtime="20160410 12:57:00.650" critical="yes" starttime="20160410 12:55:43.510"></status>
+</test>
+<status status="PASS" endtime="20160410 12:57:00.651" starttime="20160410 12:55:32.565"></status>
+</suite>
+<statistics>
+<total>
+<stat fail="0" pass="1">Critical Tests</stat>
+<stat fail="0" pass="1">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat fail="0" id="s1" name="Tool Test" pass="1">Tool Test</stat>
+</suite>
+</statistics>
+<errors>
+<msg timestamp="20160410 12:55:37.034" level="WARN">Retrying (Retry(total=2, connect=None, read=None, redirect=None)) after connection broken by 'NewConnectionError('&lt;urllib3.connection.HTTPConnection object at 0x0000000003066748&gt;: Failed to establish a new connection: [Errno 10061] \xb5L\xaak\xb3s\xbdu\xa1A\xa6]\xac\xb0\xa5\xd8\xbc\xd0\xb9q\xb8\xa3\xa9\xda\xb5\xb4\xb3s\xbdu\xa1C',)': /jsonrpc/0</msg>
+<msg timestamp="20160410 12:55:39.048" level="WARN">Retrying (Retry(total=1, connect=None, read=None, redirect=None)) after connection broken by 'NewConnectionError('&lt;urllib3.connection.HTTPConnection object at 0x00000000030667F0&gt;: Failed to establish a new connection: [Errno 10061] \xb5L\xaak\xb3s\xbdu\xa1A\xa6]\xac\xb0\xa5\xd8\xbc\xd0\xb9q\xb8\xa3\xa9\xda\xb5\xb4\xb3s\xbdu\xa1C',)': /jsonrpc/0</msg>
+<msg timestamp="20160410 12:55:41.048" level="WARN">Retrying (Retry(total=0, connect=None, read=None, redirect=None)) after connection broken by 'NewConnectionError('&lt;urllib3.connection.HTTPConnection object at 0x0000000003066B38&gt;: Failed to establish a new connection: [Errno 10061] \xb5L\xaak\xb3s\xbdu\xa1A\xa6]\xac\xb0\xa5\xd8\xbc\xd0\xb9q\xb8\xa3\xa9\xda\xb5\xb4\xb3s\xbdu\xa1C',)': /jsonrpc/0</msg>
+<msg timestamp="20160410 12:55:49.783" level="WARN">Retrying (Retry(total=2, connect=None, read=None, redirect=None)) after connection broken by 'NewConnectionError('&lt;urllib3.connection.HTTPConnection object at 0x0000000003117978&gt;: Failed to establish a new connection: [Errno 10061] \xb5L\xaak\xb3s\xbdu\xa1A\xa6]\xac\xb0\xa5\xd8\xbc\xd0\xb9q\xb8\xa3\xa9\xda\xb5\xb4\xb3s\xbdu\xa1C',)': /jsonrpc/0</msg>
+<msg timestamp="20160410 12:55:51.797" level="WARN">Retrying (Retry(total=1, connect=None, read=None, redirect=None)) after connection broken by 'NewConnectionError('&lt;urllib3.connection.HTTPConnection object at 0x0000000003117A90&gt;: Failed to establish a new connection: [Errno 10061] \xb5L\xaak\xb3s\xbdu\xa1A\xa6]\xac\xb0\xa5\xd8\xbc\xd0\xb9q\xb8\xa3\xa9\xda\xb5\xb4\xb3s\xbdu\xa1C',)': /jsonrpc/0</msg>
+<msg timestamp="20160410 12:55:53.821" level="WARN">Retrying (Retry(total=0, connect=None, read=None, redirect=None)) after connection broken by 'NewConnectionError('&lt;urllib3.connection.HTTPConnection object at 0x0000000003117BE0&gt;: Failed to establish a new connection: [Errno 10061] \xb5L\xaak\xb3s\xbdu\xa1A\xa6]\xac\xb0\xa5\xd8\xbc\xd0\xb9q\xb8\xa3\xa9\xda\xb5\xb4\xb3s\xbdu\xa1C',)': /jsonrpc/0</msg>
+<msg timestamp="20160410 12:56:06.964" level="WARN">Retrying (Retry(total=2, connect=None, read=None, redirect=None)) after connection broken by 'ProtocolError('Connection aborted.', error(10054, '\xbb\xb7\xba\xdd\xa5D\xbe\xf7\xa4w\xb1j\xa8\xee\xc3\xf6\xb3\xac\xa4@\xad\xd3\xb2{\xa6s\xaa\xba\xb3s\xbdu\xa1C'))': /jsonrpc/0</msg>
+<msg timestamp="20160410 12:56:11.231" level="WARN">Retrying (Retry(total=2, connect=None, read=None, redirect=None)) after connection broken by 'NewConnectionError('&lt;urllib3.connection.HTTPConnection object at 0x0000000003117D30&gt;: Failed to establish a new connection: [Errno 10061] \xb5L\xaak\xb3s\xbdu\xa1A\xa6]\xac\xb0\xa5\xd8\xbc\xd0\xb9q\xb8\xa3\xa9\xda\xb5\xb4\xb3s\xbdu\xa1C',)': /jsonrpc/0</msg>
+<msg timestamp="20160410 12:56:13.234" level="WARN">Retrying (Retry(total=1, connect=None, read=None, redirect=None)) after connection broken by 'NewConnectionError('&lt;urllib3.connection.HTTPConnection object at 0x0000000003117F28&gt;: Failed to establish a new connection: [Errno 10061] \xb5L\xaak\xb3s\xbdu\xa1A\xa6]\xac\xb0\xa5\xd8\xbc\xd0\xb9q\xb8\xa3\xa9\xda\xb5\xb4\xb3s\xbdu\xa1C',)': /jsonrpc/0</msg>
+<msg timestamp="20160410 12:56:15.254" level="WARN">Retrying (Retry(total=0, connect=None, read=None, redirect=None)) after connection broken by 'NewConnectionError('&lt;urllib3.connection.HTTPConnection object at 0x00000000031173C8&gt;: Failed to establish a new connection: [Errno 10061] \xb5L\xaak\xb3s\xbdu\xa1A\xa6]\xac\xb0\xa5\xd8\xbc\xd0\xb9q\xb8\xa3\xa9\xda\xb5\xb4\xb3s\xbdu\xa1C',)': /jsonrpc/0</msg>
+<msg timestamp="20160410 12:56:53.340" level="WARN">Retrying (Retry(total=2, connect=None, read=None, redirect=None)) after connection broken by 'ProtocolError('Connection aborted.', error(10054, '\xbb\xb7\xba\xdd\xa5D\xbe\xf7\xa4w\xb1j\xa8\xee\xc3\xf6\xb3\xac\xa4@\xad\xd3\xb2{\xa6s\xaa\xba\xb3s\xbdu\xa1C'))': /jsonrpc/0</msg>
+<msg timestamp="20160410 12:56:54.362" level="WARN">Retrying (Retry(total=1, connect=None, read=None, redirect=None)) after connection broken by 'ProtocolError('Connection aborted.', error(10054, '\xbb\xb7\xba\xdd\xa5D\xbe\xf7\xa4w\xb1j\xa8\xee\xc3\xf6\xb3\xac\xa4@\xad\xd3\xb2{\xa6s\xaa\xba\xb3s\xbdu\xa1C'))': /jsonrpc/0</msg>
+<msg timestamp="20160410 12:56:55.365" level="WARN">Retrying (Retry(total=0, connect=None, read=None, redirect=None)) after connection broken by 'ProtocolError('Connection aborted.', error(10054, '\xbb\xb7\xba\xdd\xa5D\xbe\xf7\xa4w\xb1j\xa8\xee\xc3\xf6\xb3\xac\xa4@\xad\xd3\xb2{\xa6s\xaa\xba\xb3s\xbdu\xa1C'))': /jsonrpc/0</msg>
+<msg timestamp="20160410 12:56:57.493" level="WARN">Retrying (Retry(total=2, connect=None, read=None, redirect=None)) after connection broken by 'ProtocolError('Connection aborted.', error(10054, '\xbb\xb7\xba\xdd\xa5D\xbe\xf7\xa4w\xb1j\xa8\xee\xc3\xf6\xb3\xac\xa4@\xad\xd3\xb2{\xa6s\xaa\xba\xb3s\xbdu\xa1C'))': /jsonrpc/0</msg>
+<msg timestamp="20160410 12:56:58.511" level="WARN">Retrying (Retry(total=1, connect=None, read=None, redirect=None)) after connection broken by 'ProtocolError('Connection aborted.', error(10054, '\xbb\xb7\xba\xdd\xa5D\xbe\xf7\xa4w\xb1j\xa8\xee\xc3\xf6\xb3\xac\xa4@\xad\xd3\xb2{\xa6s\xaa\xba\xb3s\xbdu\xa1C'))': /jsonrpc/0</msg>
+</errors>
+</robot>
