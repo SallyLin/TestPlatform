@@ -21,8 +21,8 @@ public class PythonUiautomatorMessageParserTest {
 	
 	@Before
 	public void setUp() throws IOException{
-		final String MESSAGE_PATH = "D:\\python_success_msg.txt";
-		final String FAIL_MESSAGE_PATH = "D:\\python_failure_msg.txt";
+		final String MESSAGE_PATH = "./testdata/python_success_msg.txt";
+		final String FAIL_MESSAGE_PATH = "./testdata/python_failure_msg.txt";
 		File messageFile = new File(MESSAGE_PATH);
 		assertTrue(messageFile.exists());
 		File failMessageFile = new File(FAIL_MESSAGE_PATH);

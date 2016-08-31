@@ -39,6 +39,7 @@ public class Device {
 		imageMaps.put("CB5A259ZSX", "img/sony_z3_exec.png");
 		imageMaps.put("F2NZCY01033809E", "img/zenwatch2.png");
 		imageMaps.put("FA369W910377", "img/one_m8_exec.png");
+		imageMaps.put("14482D12FA2D2B6", "img/sony_watch3.png");
 		if(imageMaps.get(this.getSerialNum())!=null)
 			return imageMaps.get(this.getSerialNum());
 		return "http://placehold.it/200x200";

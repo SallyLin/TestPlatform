@@ -20,8 +20,8 @@ public class RobotframeworkMessageParserTest {
 	MessageParser parser;
 	@Before
 	public void setUp() throws IOException {
-		final String MESSAGE_PATH = "D:\\message.txt";
-		final String FAIL_MESSAGE_PATH = "D:\\fail_message.txt";
+		final String MESSAGE_PATH = "./testdata/message.txt";
+		final String FAIL_MESSAGE_PATH = "./testdata/fail_message.txt";
 		File messageFile = new File(MESSAGE_PATH);
 		assertTrue(messageFile.exists());
 		File failMessageFile = new File(FAIL_MESSAGE_PATH);

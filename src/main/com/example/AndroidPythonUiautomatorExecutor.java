@@ -72,29 +72,8 @@ public class AndroidPythonUiautomatorExecutor implements TestExecutor {
 	}
 
 	private List<String> execute(Device phone, Device wear) throws IOException, InterruptedException {
-//		Utility.cmd("chmod", "+x", this.mainTestRunner.getAbsolutePath());
 		List<String> output = Utility.cmd("test", CoreOptions.PYTHON, this.mainTestRunner.getAbsolutePath(),
 				phone.getSerialNum(), wear.getSerialNum());
-		
-//		List<String> output = Utility.cmd("ADB",CoreOptions.ADB, "devices");
-		
-
-		// List<String> output = new ArrayList<String>();
-		// ProcessBuilder proc = new ProcessBuilder(CoreOptions.PYTHON,
-		// mainTestRunner.getAbsolutePath(), phone.getSerialNum(),
-		// wear.getSerialNum());
-		//
-		//
-		// Process p = proc.start();
-		//
-		// StreamConsumer errorConsumer = new StreamConsumer(p.getErrorStream(),
-		// "error");
-		//
-		// errorConsumer.start();
-		//
-		// p.waitFor();
-		// output = errorConsumer.getOutput();
-		// System.out.println("ExitVal: " + exitVal);
 
 		return output;
 	}

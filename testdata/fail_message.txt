@@ -1,0 +1,18 @@
+==============================================================================
+EvernoteTest
+==============================================================================
+addNewNotesInLists | FAIL |
+JsonRPCError: JsonRPC Error code: -32002, Message: android.support.test.uiautomator.UiObjectNotFoundException: UiSelector[RESOURCE_ID=com.evernote:id/main_fab_image_view]
+Also teardown failed:
+Several failures occurred:
+1) JsonRPCError: JsonRPC Error code: -32002, Message: android.support.test.uiautomator.UiObjectNotFoundException: UiSelector[TEXT=Shopping List]
+2) JsonRPCError: JsonRPC Error code: -32002, Message: android.support.test.uiautomator.UiObjectNotFoundException: UiSelector[TEXT=Delete]
+3) JsonRPCError: JsonRPC Error code: -32002, Message: android.support.test.uiautomator.UiObjectNotFoundException: UiSelector[TEXT=OK]
+------------------------------------------------------------------------------
+EvernoteTest | FAIL |
+1 critical test, 0 passed, 1 failed
+1 test total, 0 passed, 1 failed
+==============================================================================
+Output: D:\eclipse\null\CB5A259ZSX_510KPNY0322975\output.xml
+Log: D:\eclipse\null\CB5A259ZSX_510KPNY0322975\log.html
+Report: D:\eclipse\null\CB5A259ZSX_510KPNY0322975\report.html

@@ -1,0 +1,6 @@
+test_true_assertion_true (TestPython.TestCase) ... ok
+
+----------------------------------------------------------------------
+Ran 1 test in 0.005s
+
+OK

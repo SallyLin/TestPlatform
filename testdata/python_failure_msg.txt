@@ -1,0 +1,24 @@
+test_false_assertion_true (TestPython.TestCase) ... FAIL
+test_true_assertion_false (TestPython.TestCase) ... FAIL
+test_true_assertion_true (TestPython.TestCase) ... ok
+
+======================================================================
+FAIL: test_false_assertion_true (TestPython.TestCase)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "D:/Thesis\TestPython.py", line 11, in test_false_assertion_true
+    self.assertFalse(True)
+AssertionError: True is not false
+
+======================================================================
+FAIL: test_true_assertion_false (TestPython.TestCase)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "D:/Thesis\TestPython.py", line 5, in test_true_assertion_false
+    self.assertTrue(False)
+AssertionError: False is not true
+
+----------------------------------------------------------------------
+Ran 3 tests in 0.013s
+
+FAILED (failures=2)
